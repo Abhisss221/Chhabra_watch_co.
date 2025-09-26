@@ -10,46 +10,71 @@ export default function CoverflowSection() {
   const watches = [
     {
       id: 1,
-      brand: "Patek Philippe",
-      model: "Nautilus",
-      image: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      brand: "Fossil",
+      model: "",
+      image: "https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      
     },
     {
       id: 2,
-      brand: "Audemars Piguet",
-      model: "Royal Oak",
-      image: "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      brand: "Tommy",
+      model: "",
+      image: "https://5.imimg.com/data5/ANDROID/Default/2024/1/377128852/QS/QO/BJ/185665365/product-jpeg-500x500.jpg"
     },
     {
       id: 3,
-      brand: "Rolex",
-      model: "Submariner",
-      image: "https://images.unsplash.com/photo-1548068205-1247c4fcaac3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      brand: "Anne klein",
+      model: "",
+      image: "https://vintageradar.com/cdn/shop/products/IMG_7817_3244eb90-6c3d-4e5f-8e5b-3902f25d0563_grande.jpg?v=1636716751"
     },
     {
       id: 4,
-      brand: "Vacheron Constantin",
-      model: "Patrimony",
-      image: "https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      brand: "Citizen",
+      model: "",
+      image: "https://cdn4.ethoswatches.com/the-watch-guide/wp-content/uploads/2018/11/Citizen-mobile-mast.jpg"
     },
     {
       id: 5,
-      brand: "Jaeger-LeCoultre",
-      model: "Reverso",
-      image: "https://images.unsplash.com/photo-1609587312208-cea54be969e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      brand: "Guess",
+      model: "",
+      image: "https://static.helioswatchstore.com/media/catalog/product/g/w/gw0853g3_10.jpg"
     },
     {
       id: 6,
-      brand: "Richard Mille",
-      model: "RM 27-03",
-      image: "https://images.unsplash.com/photo-1611530873387-0c2a8d71b9a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      brand: "Xylys",
+      model: "",
+      image: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/f32c1511730427.560fc76a84709.jpg"
     },
     {
       id: 7,
-      brand: "A. Lange & Söhne",
-      model: "Lange 1",
-      image: "https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-    }
+      brand: "Kenneth Cole",
+      model: "",
+      image: "https://www.watchpilot.com/cdn/shop/files/KENNETH_COLE_LADIES_Desktop_Ladies_1920_x_600px.jpg?v=10959180750513837580"
+    },
+    {
+      id: 8,
+      brand: "Police",
+      model: "",
+      image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/watch/1/q/r/1-plpewjk0005302-police-men-original-imah4ttdahzemqhn.jpeg?q=90&crop=false"
+    },
+    {
+      id: 9,
+      brand: "Lee Cooper",
+      model: "",
+      image: "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/26762818/2024/1/3/a5929ff0-2dd6-40c8-bcd9-db8100c195521704278647162LeeCooperMenBlueBrassSkeletonDialBlueLeatherStrapsAnalogueAu1.jpg"
+    },
+    {
+      id: 10,
+      brand: "Titan",
+      model: "",
+      image: "https://cdni.haymarketmedia.in/Stuff/Uploads/ArticleImages/638636342571983620_titan_stellar_2_collection_launch_india_meteorite.jpg"
+    },
+    {
+      id: 11,
+      brand: "Timex",
+      model: "",
+      image: "https://superwatchman.com/wp-content/uploads/2023/01/TIMEX_MARLIN_BLUE_HEAD-v1596207286035.jpg"
+    },
   ];
 
   useEffect(() => {

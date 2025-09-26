@@ -48,7 +48,7 @@ export default function FeaturedSection() {
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
         }`}>
           <h2 className="luxury-text text-5xl font-bold text-white mb-6">
-            Why Choose <span className="text-gold">Chronos Elite</span>
+            Why Choose <span className="text-gold">Chhabra Watch Co.</span>
           </h2>
           <p className="modern-text text-xl text-gray-medium max-w-3xl mx-auto leading-relaxed">
             More than timepieces, we curate experiences that celebrate the art of horology

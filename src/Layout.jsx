@@ -31,6 +31,7 @@ export default function Layout({ children }) {
     { name: "Cart", icon: ShoppingCart, url: "#" },
     { name: "Help", icon: HelpCircle, url: createPageUrl("About") }
   ];
+  
 
   const isActive = (url) => location.pathname === url;
 
@@ -76,7 +77,7 @@ export default function Layout({ children }) {
                 <Watch className="w-5 h-5 text-black" />
               </div>
               <span className="luxury-text text-xl font-bold text-gold">
-                Chronos Elite
+                Chhabra Watch Co.
               </span>
             </Link>
 
@@ -154,19 +155,21 @@ export default function Layout({ children }) {
           <div className="grid md:grid-cols-3 gap-12 mb-12">
             {/* SHOP LOCATION MAP */}
             <div className="md:col-span-1">
-              <h3 className="luxury-text text-xl text-gold mb-4">Our Salon</h3>
-              <div className="w-full h-48 border border-gold/30 rounded-lg overflow-hidden">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.285890072793!2d-73.99252098459383!3d40.75573497932714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad102a8397%3A0x3b4231f2472015f4!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1672523456789!5m2!1sen!2sus"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  title="Shop Location"
-                ></iframe>
-              </div>
-            </div>
+  <h3 className="luxury-text text-xl text-gold mb-4">Our Shop</h3>
+  <div className="w-full h-48 border border-gold/30 rounded-lg overflow-hidden">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.7886219412726!2d75.64944847471573!3d32.27375650953648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391c7f9022aadc41%3A0xdfef501a82d09ae1!2sCHHABRA%20WATCH%20CO.!5e1!3m2!1sen!2sin!4v1758919497506!5m2!1sen!2sin"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Shop Location"
+    ></iframe>
+  </div>
+</div>
+
 
             {/* FOOTER LINKS & SOCIAL MEDIA */}
             <div className="md:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-8">
@@ -174,26 +177,21 @@ export default function Layout({ children }) {
                 <h3 className="luxury-text text-xl text-gold mb-4">Explore</h3>
                 <ul className="space-y-3 modern-text text-gray-light">
                   <li><Link to={createPageUrl("Brands")} className="hover:text-gold transition-colors">Watches</Link></li>
-                  <li><Link to={createPageUrl("WallClock")} className="hover:text-gold transition-colors">Wall Clocks</Link></li>
+                  {/*<li><Link to={createPageUrl("WallClock")} className="hover:text-gold transition-colors">Wall Clocks</Link></li>*/}
                   <li><Link to={createPageUrl("About")} className="hover:text-gold transition-colors">About Us</Link></li>
                 </ul>
               </div>
               <div>
-                <h3 className="luxury-text text-xl text-gold mb-4">Support</h3>
-                <ul className="space-y-3 modern-text text-gray-light">
-                  <li><Link to="#" className="hover:text-gold transition-colors">Contact</Link></li>
-                  <li><Link to="#" className="hover:text-gold transition-colors">FAQ</Link></li>
-                  <li><Link to="#" className="hover:text-gold transition-colors">Warranty</Link></li>
-                </ul>
+                
               </div>
               <div>
                 <h3 className="luxury-text text-xl text-gold mb-4">Connect</h3>
                 <div className="flex space-x-5">
                   {/* SOCIAL MEDIA LINKS - Easy to modify URLs */}
-                  <a href="https://instagram.com/chronoselite" target="_blank" rel="noopener noreferrer" className="text-gold hover:scale-110 transition-transform" title="Instagram">
+                  <a href="https://www.instagram.com/chhabra_watch_co/" target="_blank" rel="noopener noreferrer" className="text-gold hover:scale-110 transition-transform" title="Instagram">
                     <Instagram className="w-6 h-6" />
                   </a>
-                  <a href="https://wa.me/12125550123" target="_blank" rel="noopener noreferrer" className="text-gold hover:scale-110 transition-transform" title="WhatsApp">
+                  <a href="https://wa.me/9815481350" target="_blank" rel="noopener noreferrer" className="text-gold hover:scale-110 transition-transform" title="WhatsApp">
                     <MessageSquare className="w-6 h-6" />
                   </a>
                 </div>
@@ -210,11 +208,11 @@ export default function Layout({ children }) {
                 <Watch className="w-4 h-4 text-black" />
               </div>
               <span className="luxury-text text-lg font-bold text-gold">
-                Chronos Elite
+                Chhabra Watch Co.
               </span>
             </div>
             <p className="modern-text text-xs text-gray-medium">
-              © 2025 Chronos Elite. Timeless Luxury, Crafted for You. All rights reserved.
+              © 2025 Chhabra Watch Co. Timeless Luxury, Crafted for You. All rights reserved.
             </p>
           </div>
         </div>

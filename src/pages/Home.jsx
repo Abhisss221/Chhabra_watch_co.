@@ -12,8 +12,8 @@ export default function Home() {
       <Hero />
       <FeatureBanner />
       <CoverflowSection />
-      <CollectionsSection />
-      <BrandShowcase />
+      {/*<CollectionsSection />*/}
+      {/*<BrandShowcase />*/}
       <LifestyleSection />
     </div>
   );
